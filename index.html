@@ -1,287 +1,434 @@
-<html><head><meta charset='UTF-8'></head><body><h1 style='page-break-before: always;'>05-28.html</h1>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+
+<body><h1 style='page-break-before: always;'>05-28.html</h1>
 <div>
     <h1>May 28: Ch. 1</h1>
     <h2>Overview</h2>
-<p>The meeting served as an introduction to fundamental statistical concepts, emphasizing the practical application of data analysis over manual calculation. Key definitions were established through a real-world scenario involving New York City residents' spending habits, followed by a collaborative review of practice examples to prepare for the upcoming exam.</p>
-<h2>Statistical Fundamentals and Vocabulary</h2>
-<ul>
-<li>The instructor emphasized that modern statistics focuses on <strong>interpretation</strong> and <strong>analysis</strong> rather than accurate manual calculation, as technology now handles the latter.</li>
-<li><strong>Target population</strong> consists of all elements, individuals, or objects whose characteristics are being studied.</li>
-<li><strong>Parameter</strong> is a numerical value that describes a population characteristic.</li>
-<li><strong>Sample</strong> is a subset or portion of the population selected for study.</li>
-<li><strong>Statistic</strong> is a numerical value that describes a sample characteristic.</li>
-<li><strong>Sampling variability</strong> refers to the fact that observed values of a statistic vary depending on the particular sample selected from the population.</li>
-<li><strong>Population size</strong> is represented by <strong>capital N</strong>, while <strong>sample size</strong> is represented by <strong>lowercase n</strong>.</li>
-<li>A <strong>parameter</strong> is a <strong>constant</strong> (a unique, often unknown value), whereas a <strong>statistic</strong> is a <strong>variable</strong> (changes from sample to sample).</li>
-</ul>
-<h2>Case Study: NYC Clothing Expenditures</h2>
-<ul>
-<li>The group analyzed a hypothetical study of the average amount spent on clothing by all residents in New York City over the past three months.</li>
-<li>The <strong>target population</strong> is all residents in NYC (approximately <strong>8 million</strong> people).</li>
-<li>A <strong>sample size</strong> of <strong>10,000</strong> residents was selected randomly to estimate the population average.</li>
-<li>Random selection is critical for reliability; using ZIP codes and ratios helps ensure the sample is representative of the entire city.</li>
-<li>The discussion highlighted that a single sample statistic (e.g., $782) might not be a perfectly reliable estimate of the population parameter because outliers (billionaires or homeless individuals) can skew data.</li>
-<li><strong>Sampling variability</strong> was demonstrated by showing how different samples of 10,000 people could yield different averages (e.g., $563 vs. $1,000+).</li>
-</ul>
-<h2>Practice Exercises and Exam Preparation</h2>
-<ul>
-<li><strong>Example 1A</strong>: A survey of 752 adults (42% response) is a <strong>sample</strong> and the percentage is a <strong>statistic</strong>.</li>
-<li><strong>Example 1B</strong>: 44% of governors of the 50 states is a <strong>parameter</strong> because it covers the entire <strong>population</strong> of US state governors.</li>
-<li><strong>Example 1C</strong>: The average annual salary for 35 of a companys 1200 accountants is $68,000: 35 out of 1,200 accountants is a <strong>sample</strong>, making the $68,000 average a <strong>statistic</strong>.</li>
-<li><strong>Example 2</strong>: In a study of 17,000 students where 200 were interviewed, the <strong>population</strong> is the 17,000 students and the <strong>sample</strong> is the 200 interviewed.</li>
-<li><strong>Example 3</strong>: It is considered <strong>true</strong> that it is realistically impossible for the Census Bureau to obtain data for every single person in the US due to the sheer volume and accessibility of residents.</li>
-<li>The instructor confirmed that questions similar to Examples 1 and 2 will appear on the <strong>first exam</strong>.</li>
-</ul>
-<h2>Action Items</h2>
-<ul>
-<li>Review the list of topics for Chapter 3 to prepare for the next session.</li>
-<li>Complete any remaining parts of Chapter 1 independently.</li>
-<li>Prepare for the first exam by practicing the identification of populations, samples, parameters, and statistics.</li>
-<li>Attend the next class on Monday (scheduled to end early at 7:15 PM to compensate for overage).</li>
-</ul>
-<h2>Meta info for class</h2>
-<ul>
-<li>Exam questions will resemble more the lecture examples versus homework or textbook.</li>
-<li>first exam will cover chapters 1-7.</li>
-<li>prof Nonoyama is teaching multiple classes this summer so when emailing, put stat 213 in subject line of email.</li>
-</ul>
+    <p>The meeting served as an introduction to fundamental statistical concepts, emphasizing the practical application
+        of data analysis over manual calculation. Key definitions were established through a real-world scenario
+        involving New York City residents' spending habits, followed by a collaborative review of practice examples to
+        prepare for the upcoming exam.</p>
+    <h2>Statistical Fundamentals and Vocabulary</h2>
+    <ul>
+        <li>The instructor emphasized that modern statistics focuses on <strong>interpretation</strong> and <strong>analysis</strong>
+            rather than accurate manual calculation, as technology now handles the latter.
+        </li>
+        <li><strong>Target population</strong> consists of all elements, individuals, or objects whose characteristics
+            are being studied.
+        </li>
+        <li><strong>Parameter</strong> is a numerical value that describes a population characteristic.</li>
+        <li><strong>Sample</strong> is a subset or portion of the population selected for study.</li>
+        <li><strong>Statistic</strong> is a numerical value that describes a sample characteristic.</li>
+        <li><strong>Sampling variability</strong> refers to the fact that observed values of a statistic vary depending
+            on the particular sample selected from the population.
+        </li>
+        <li><strong>Population size</strong> is represented by <strong>capital N</strong>, while <strong>sample
+            size</strong> is represented by <strong>lowercase n</strong>.
+        </li>
+        <li>A <strong>parameter</strong> is a <strong>constant</strong> (a unique, often unknown value), whereas a
+            <strong>statistic</strong> is a <strong>variable</strong> (changes from sample to sample).
+        </li>
+    </ul>
+    <h2>Case Study: NYC Clothing Expenditures</h2>
+    <ul>
+        <li>The group analyzed a hypothetical study of the average amount spent on clothing by all residents in New York
+            City over the past three months.
+        </li>
+        <li>The <strong>target population</strong> is all residents in NYC (approximately <strong>8 million</strong>
+            people).
+        </li>
+        <li>A <strong>sample size</strong> of <strong>10,000</strong> residents was selected randomly to estimate the
+            population average.
+        </li>
+        <li>Random selection is critical for reliability; using ZIP codes and ratios helps ensure the sample is
+            representative of the entire city.
+        </li>
+        <li>The discussion highlighted that a single sample statistic (e.g., $782) might not be a perfectly reliable
+            estimate of the population parameter because outliers (billionaires or homeless individuals) can skew data.
+        </li>
+        <li><strong>Sampling variability</strong> was demonstrated by showing how different samples of 10,000 people
+            could yield different averages (e.g., $563 vs. $1,000+).
+        </li>
+    </ul>
+    <h2>Practice Exercises and Exam Preparation</h2>
+    <ul>
+        <li><strong>Example 1A</strong>: A survey of 752 adults (42% response) is a <strong>sample</strong> and the
+            percentage is a <strong>statistic</strong>.
+        </li>
+        <li><strong>Example 1B</strong>: 44% of governors of the 50 states is a <strong>parameter</strong> because it
+            covers the entire <strong>population</strong> of US state governors.
+        </li>
+        <li><strong>Example 1C</strong>: The average annual salary for 35 of a companys 1200 accountants is $68,000: 35
+            out of 1,200 accountants is a <strong>sample</strong>, making the $68,000 average a
+            <strong>statistic</strong>.
+        </li>
+        <li><strong>Example 2</strong>: In a study of 17,000 students where 200 were interviewed, the
+            <strong>population</strong> is the 17,000 students and the <strong>sample</strong> is the 200 interviewed.
+        </li>
+        <li><strong>Example 3</strong>: It is considered <strong>true</strong> that it is realistically impossible for
+            the Census Bureau to obtain data for every single person in the US due to the sheer volume and accessibility
+            of residents.
+        </li>
+        <li>The instructor confirmed that questions similar to Examples 1 and 2 will appear on the <strong>first
+            exam</strong>.
+        </li>
+    </ul>
+    <h2>Action Items</h2>
+    <ul>
+        <li>Review the list of topics for Chapter 3 to prepare for the next session.</li>
+        <li>Complete any remaining parts of Chapter 1 independently.</li>
+        <li>Prepare for the first exam by practicing the identification of populations, samples, parameters, and
+            statistics.
+        </li>
+        <li>Attend the next class on Monday (scheduled to end early at 7:15 PM to compensate for overage).</li>
+    </ul>
+    <h2>Meta info for class</h2>
+    <ul>
+        <li>Exam questions will resemble more the lecture examples versus homework or textbook.</li>
+        <li>first exam will cover chapters 1-7.</li>
+        <li>prof Nonoyama is teaching multiple classes this summer so when emailing, put stat 213 in subject line of
+            email.
+        </li>
+    </ul>
 </div>
 <h1 style='page-break-before: always;'>06-01.html</h1>
 <div>
     <h1>Jun 1: Ch. 1 & 3</h1>
 
     <h2>Overview</h2>
-<p>The meeting focused on Chapter 1 and Chapter 3 of the statistics course, specifically the classification of variables and the introduction of Exploratory Data Analysis (EDA). Key outcomes included defining categorical and quantitative variables, distinguishing between discrete and continuous data, and identifying appropriate graphical tools for data visualization.</p>
-<h2>Variable Classification</h2>
-<ul>
-<li>Categorical (Qualitative) Variables: Describe qualities or categories and can be represented numerically (e.g., <strong>ID</strong>, <strong>Student ID</strong>, <strong>Employee ID</strong>, <strong>Driver's license</strong>, <strong>Social security number</strong>, <strong>Passport number</strong>, <strong>ZIP code</strong>, <strong>Bank account number</strong>) or non-numerically (e.g., major, employment status, birth month).</li>
-<li>Quantitative (Numerical) Variables: Must have mathematical meaning where totals or averages make sense.
-<ul>
-<li>Discrete: Items that are counted (e.g., number of siblings, number of customers, number of buildings, number of bank accounts).</li>
-<li>Continuous: Items that are measured (e.g., height, weight, distance, salary/income, temperature, length of time).</li>
-</ul>
-</li>
-<li>Note on Overlap: Some variables like age or monetary value are technically continuous but are often treated as discrete for practical purposes.</li>
-</ul>
-<h2>Exploratory Data Analysis (EDA)</h2>
-<ul>
-<li>Definition: A "baby step" analysis to evaluate data quality, clean errors (e.g., impossible ages or GPAs), and identify data types before complex modeling.</li>
-<li>Graphical Approach: Used for both categorical and quantitative variables to identify characteristics.</li>
-<li>Descriptive Approach: Used strictly for quantitative variables to find summary statistics (mean, median, variation).</li>
-</ul>
-<h2>Data Visualization Tools</h2>
-<ul>
-<li>Categorical Graphs:
-<ul>
-<li>Bar graph (best for many categories).</li>
-<li>Pie chart (best for few categories).</li>
-</ul>
-</li>
-<li>Quantitative Graphs:
-<ul>
-<li>Histogram.</li>
-<li>Dot plot.</li>
-<li>Box plot (Box and Whisker plot) - to be covered in Chapter 4.</li>
-<li>Stem and leaf plot.</li>
-</ul>
-</li>
-<li>Time Series Analysis: Used for data like historical stock prices (beyond the scope of basic EDA).</li>
-<li>Linear Regression: Analyzing correlation between two quantitative variables (Chapter 5).</li>
-</ul>
-<h2>Frequency Distributions</h2>
-<ul>
-<li>Frequency: The count of observations in a category.</li>
-<li>Relative Frequency: The proportion of observations (Frequency / Total Frequency).</li>
-<li>Mutually Exclusive Categories: In the "Where are you from?" example, a student cannot be from two categories simultaneously.
-<ul>
-<li>"New York State AND Other Country" = 0.</li>
-<li>"New York State OR Other Country" = Sum of both frequencies.</li>
-</ul>
-</li>
-</ul>
-<h2>Action Items</h2>
-<ul>
-<li>Review Chapter 1 and Chapter 3 notes already posted under course material in Brightspace.</li>
-<li>Complete homework assignments to practice identifying categorical, discrete, and continuous variables.</li>
-<li>Prepare for the first exam, which will include questions similar to the variable identification exercises.</li>
-<li>Follow up on Chapter 4 topics (Descriptive Statistics and Box Plots) in the next session.</li>
-</ul>
+    <p>The meeting focused on Chapter 1 and Chapter 3 of the statistics course, specifically the classification of
+        variables and the introduction of Exploratory Data Analysis (EDA). Key outcomes included defining categorical
+        and quantitative variables, distinguishing between discrete and continuous data, and identifying appropriate
+        graphical tools for data visualization.</p>
+    <h2>Variable Classification</h2>
+    <ul>
+        <li>Categorical (Qualitative) Variables: Describe qualities or categories and can be represented numerically
+            (e.g., <strong>ID</strong>, <strong>Student ID</strong>, <strong>Employee ID</strong>, <strong>Driver's
+                license</strong>, <strong>Social security number</strong>, <strong>Passport number</strong>, <strong>ZIP
+                code</strong>, <strong>Bank account number</strong>) or non-numerically (e.g., major, employment status,
+            birth month).
+        </li>
+        <li>Quantitative (Numerical) Variables: Must have mathematical meaning where totals or averages make sense.
+            <ul>
+                <li>Discrete: Items that are counted (e.g., number of siblings, number of customers, number of
+                    buildings, number of bank accounts).
+                </li>
+                <li>Continuous: Items that are measured (e.g., height, weight, distance, salary/income, temperature,
+                    length of time).
+                </li>
+            </ul>
+        </li>
+        <li>Note on Overlap: Some variables like age or monetary value are technically continuous but are often treated
+            as discrete for practical purposes.
+        </li>
+    </ul>
+    <h2>Exploratory Data Analysis (EDA)</h2>
+    <ul>
+        <li>Definition: A "baby step" analysis to evaluate data quality, clean errors (e.g., impossible ages or GPAs),
+            and identify data types before complex modeling.
+        </li>
+        <li>Graphical Approach: Used for both categorical and quantitative variables to identify characteristics.</li>
+        <li>Descriptive Approach: Used strictly for quantitative variables to find summary statistics (mean, median,
+            variation).
+        </li>
+    </ul>
+    <h2>Data Visualization Tools</h2>
+    <ul>
+        <li>Categorical Graphs:
+            <ul>
+                <li>Bar graph (best for many categories).</li>
+                <li>Pie chart (best for few categories).</li>
+            </ul>
+        </li>
+        <li>Quantitative Graphs:
+            <ul>
+                <li>Histogram.</li>
+                <li>Dot plot.</li>
+                <li>Box plot (Box and Whisker plot) - to be covered in Chapter 4.</li>
+                <li>Stem and leaf plot.</li>
+            </ul>
+        </li>
+        <li>Time Series Analysis: Used for data like historical stock prices (beyond the scope of basic EDA).</li>
+        <li>Linear Regression: Analyzing correlation between two quantitative variables (Chapter 5).</li>
+    </ul>
+    <h2>Frequency Distributions</h2>
+    <ul>
+        <li>Frequency: The count of observations in a category.</li>
+        <li>Relative Frequency: The proportion of observations (Frequency / Total Frequency).</li>
+        <li>Mutually Exclusive Categories: In the "Where are you from?" example, a student cannot be from two categories
+            simultaneously.
+            <ul>
+                <li>"New York State AND Other Country" = 0.</li>
+                <li>"New York State OR Other Country" = Sum of both frequencies.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Action Items</h2>
+    <ul>
+        <li>Review Chapter 1 and Chapter 3 notes already posted under course material in Brightspace.</li>
+        <li>Complete homework assignments to practice identifying categorical, discrete, and continuous variables.</li>
+        <li>Prepare for the first exam, which will include questions similar to the variable identification exercises.
+        </li>
+        <li>Follow up on Chapter 4 topics (Descriptive Statistics and Box Plots) in the next session.</li>
+    </ul>
 </div>
 <h1 style='page-break-before: always;'>06-02.html</h1>
 <h1>Jun 2: Ch. 3 & 4</h1>
 <div><h2>Overview</h2>
-<p>The session focused on describing quantitative distributions using histograms/density curves (shape, spread, gaps, and potential outliers), then moved into matching frequency tables to histograms and identifying distribution shapes. The class also transitioned into Chapter 4 topics: exploratory data analysis using descriptive/summary statistics, especially measures of central tendency.</p>
-<h2>Distribution shape, skewness, and tails</h2>
-<ul>
-<li>Density curves may be drawn over histograms to describe overall shape (optional, used here for comparison).</li>
-<li>Both example distributions discussed were unimodal (one peak).</li>
-<li>The blue distribution was approximately symmetric (mountain-shaped).</li>
-<li>The red distribution was left-skewed (negatively skewed): the distribution is named by the direction of the tail/stretch (stretched to the left), even if most values are clustered on the right.</li>
-<li>Skewed distributions tend to show more spread; the example left-skewed one was described as long-tailed compared to a short-tailed symmetric one.</li>
-<li>A symmetric distribution can still be long-tailed; tail length and symmetry are separate characteristics.</li>
-<li>Future spread comparisons will use statistics such as range, standard deviation, and interquartile range (IQR).</li>
-</ul>
-<h2>Gaps and potential outliers (and how they’ll be identified)</h2>
-<ul>
-<li>The first dataset had no noticeable gap; the second had a gap between the lowest score (30) and the second-lowest (64).</li>
-<li>The class discussed whether 30 is “extreme enough” to be an outlier; students generally agreed it likely is, but the instructor emphasized that informal thresholds are subjective.</li>
-<li>Outlier detection will later use statistical criteria based on the middle 50% of the data (25th and 75th percentiles) and a specific formula (to be covered at the end of Chapter 4).</li>
-<li>Key implication: if the middle 50% is tightly clustered, outliers are more likely to be flagged; if the middle 50% is already spread out, outliers are less likely.</li>
-</ul>
-<h2>Real-world examples of skewness</h2>
-<ul>
-<li>Harder tests often produce left-skewed distributions (a small number of low scores pull the tail left).</li>
-<li>GPA can be left-skewed when a small portion of students on probation have much lower GPAs.</li>
-<li>Income/salary distributions are typically right-skewed because a small percentage of very high earners stretch the tail to the right.</li>
-</ul>
-<h2>Matching frequency distributions to histograms (Chapter 3 wrap-up)</h2>
-<ul>
-<li>Task: match five frequency distributions to five histograms, then describe each as symmetric, left-skewed, right-skewed, or bimodal.</li>
-<li>The first frequency distribution example was identified as unimodal and symmetric (frequencies rose then fell symmetrically; totals were noted as 100, making relative frequencies straightforward).</li>
-<li>Student matches/descriptions confirmed in discussion:
-<ul>
-<li>One match identified as right-skewed.</li>
-<li>One match identified as left-skewed.</li>
-<li>Two graphs identified as bimodal (two peaks); peaks do not need to be the same height, and bimodality can be subtle.</li>
-</ul>
-</li>
-</ul>
-<h2>Chapter 4 transition: descriptive/summary statistics (EDA)</h2>
-<ul>
-<li>The course focus was framed as quantitative data analysis (intro-level statistics emphasizes measured/counted variables more than categorical).</li>
-<li>Descriptive/summary statistics introduced as tools for:
-<ul>
-<li>Typical value (measures of central tendency)</li>
-<li>Variation/spread</li>
-</ul>
-</li>
-<li>Measures of central tendency covered:
-<ul>
-<li>Mean (average)</li>
-<li>Median (middle value)</li>
-<li>Mode (most frequent value)</li>
-</ul>
-</li>
-</ul>
-<h2>Mean/Median/Mode and Distribution Shape</h2>
-<ul>
-<li>Symmetric unimodal distributions are described as bell-shaped (normal/Gaussian); mean, median, and mode align at/near the center.</li>
-<li>Median calculation refresher:
-<ul>
-<li>For small datasets: sort values and cross out from ends to find the middle.</li>
-<li>Median location check (mainly as a reasonableness check): ((n+1)/2); for (n=10), locate the 5.5th position (between 5th and 6th values).</li>
-</ul>
-</li>
-</ul>
-<h2>Effect of an Extreme Value (Salary Example) and Skewness</h2>
-<ul>
-<li>Scenario change: replacing a high salary (previously $70,000) with $200,000.</li>
-<li>Results after adding the extreme high value:
-<ul>
-<li>Mean increased to 72,000.</li>
-<li>Median stayed 59,000.</li>
-<li>Mode remained 59,000 (59 repeats).</li>
-</ul>
-</li>
-<li>Interpretation:
-<ul>
-<li>Mean is sensitive to extreme high/low values; median is more robust/resistant.</li>
-<li>The distribution becomes right-skewed (positively skewed) when pulled by a high outlier.</li>
-<li>Rule of thumb emphasized: when mean &gt; median, the graph tends to be right-skewed; when mean &lt; median, it tends to be left-skewed.</li>
-</ul>
-</li>
-<li>Choosing a “typical” value:
-<ul>
-<li>For skewed distributions, use the median; using the mean can overestimate (right-skew) or underestimate (left-skew) the typical value.</li>
-</ul>
-</li>
-<li>Question addressed: adding a low value (e.g., $20,000) would not necessarily “fix” skewness if the high outlier remains dominant; symmetry would require balancing extremes.</li>
-</ul>
-<h2>Real-World Context: Salaries and Net Worth (Mean vs. Median)</h2>
-<ul>
-<li>Salary example (Class of 2021 bachelor’s graduates): average around $56,000 cited as an estimate; instructor emphasized money-related distributions are often right-skewed, so more than 50% may fall below the mean.</li>
-<li>STEM majors highlighted as higher-average salary fields; computer science noted as high, but averages still exceed what most graduates make due to right-skew.</li>
-<li>Net worth discussion (Federal Reserve framing):
-<ul>
-<li>Assets vs. liabilities; net worth = assets − liabilities.</li>
-<li>Younger-than-35 group example: average net worth about 76,000 vs. median about 14,000; instructor stressed correct median interpretation (median is the 50th percentile, not “half have exactly the median”).</li>
-<li>General pattern: averages exceed medians by multiples due to extremely high net worth individuals pulling the mean up.</li>
-</ul>
-</li>
-<li>Additional illustration: Canvas assignment stats—zeros can drag mean down while median and percentiles (e.g., 75th percentile = 100) indicate most students performed well.</li>
-</ul>
-<h2>Measuring Spread: Range and Standard Deviation (Conceptual Start)</h2>
-<ul>
-<li>Range:
-<ul>
-<li>Defined as max − min.</li>
-<li>Advantage: easy to compute.</li>
-<li>Disadvantage: uses only two data points and ignores the rest of the distribution.</li>
-</ul>
-</li>
-<li>Standard deviation (introduced conceptually):
-<ul>
-<li>Depends on the mean (computed relative to the mean, not median/mode).</li>
-<li>Interpreted as approximating the average distance of data values from the mean.</li>
-<li>Example scores: 84, 91, 65 with mean 80.
-<ul>
-<li>Deviations: +4, +11, −15; using distances (absolute values): 4, 11, 15.</li>
-<li>Average distance: (4+11+15)/3 = 10 → interpreted as “on average, scores are approximately 10 points different from the mean.”</li>
-</ul>
-</li>
-<li>Instructor plans to cover the formal formula and calculation method in the next class.</li>
-</ul>
-</li>
-</ul>
-<h2>Exam/Study Guide and Course Logistics</h2>
-<ul>
-<li>Exam format question: will include some multiple-choice questions; details deferred.</li>
-<li>Instructor will show/share a study guide from last summer (same modality: online teaching, in-class exams) during the next class, including format and question counts.</li>
-<li>Late-joining student asked for notes for chapters 1–2; instructor suggested posting in chat or reminding instructor to ask the class for note-sharing.</li>
-<li>Homework platform logistics:
-<ul>
-<li>First homework due 5:00 PM tomorrow.</li>
-<li>Students can register via Brightspace announcement link; payment not required immediately to register.</li>
-<li>If a student has issues or cannot finish by the deadline, they should email the instructor; instructor will reopen all homework during the last week.</li>
-</ul>
-</li>
-</ul>
-<h2>Action items</h2>
-<ul>
-<li>Instructor to show a study guide from last summer in the next class (format, number of questions, modality details).</li>
-<li>New student to type in the chat tomorrow to request chapter 1–2 notes (or remind the instructor to ask the class).</li>
-<li>Students to register for the homework web account via Brightspace announcement link.</li>
-<li>Students to complete the first homework by 5:00 PM tomorrow.</li>
-<li>If unable to finish homework by the deadline, students to email the instructor (instructor indicated homework will be reopened during the last week).</li>
-</ul>
+    <p>The session focused on describing quantitative distributions using histograms/density curves (shape, spread,
+        gaps, and potential outliers), then moved into matching frequency tables to histograms and identifying
+        distribution shapes. The class also transitioned into Chapter 4 topics: exploratory data analysis using
+        descriptive/summary statistics, especially measures of central tendency.</p>
+    <h2>Distribution shape, skewness, and tails</h2>
+    <ul>
+        <li>Density curves may be drawn over histograms to describe overall shape (optional, used here for
+            comparison).
+        </li>
+        <li>Both example distributions discussed were unimodal (one peak).</li>
+        <li>The blue distribution was approximately symmetric (mountain-shaped).</li>
+        <li>The red distribution was left-skewed (negatively skewed): the distribution is named by the direction of the
+            tail/stretch (stretched to the left), even if most values are clustered on the right.
+        </li>
+        <li>Skewed distributions tend to show more spread; the example left-skewed one was described as long-tailed
+            compared to a short-tailed symmetric one.
+        </li>
+        <li>A symmetric distribution can still be long-tailed; tail length and symmetry are separate characteristics.
+        </li>
+        <li>Future spread comparisons will use statistics such as range, standard deviation, and interquartile range
+            (IQR).
+        </li>
+    </ul>
+    <h2>Gaps and potential outliers (and how they’ll be identified)</h2>
+    <ul>
+        <li>The first dataset had no noticeable gap; the second had a gap between the lowest score (30) and the
+            second-lowest (64).
+        </li>
+        <li>The class discussed whether 30 is “extreme enough” to be an outlier; students generally agreed it likely is,
+            but the instructor emphasized that informal thresholds are subjective.
+        </li>
+        <li>Outlier detection will later use statistical criteria based on the middle 50% of the data (25th and 75th
+            percentiles) and a specific formula (to be covered at the end of Chapter 4).
+        </li>
+        <li>Key implication: if the middle 50% is tightly clustered, outliers are more likely to be flagged; if the
+            middle 50% is already spread out, outliers are less likely.
+        </li>
+    </ul>
+    <h2>Real-world examples of skewness</h2>
+    <ul>
+        <li>Harder tests often produce left-skewed distributions (a small number of low scores pull the tail left).</li>
+        <li>GPA can be left-skewed when a small portion of students on probation have much lower GPAs.</li>
+        <li>Income/salary distributions are typically right-skewed because a small percentage of very high earners
+            stretch the tail to the right.
+        </li>
+    </ul>
+    <h2>Matching frequency distributions to histograms (Chapter 3 wrap-up)</h2>
+    <ul>
+        <li>Task: match five frequency distributions to five histograms, then describe each as symmetric, left-skewed,
+            right-skewed, or bimodal.
+        </li>
+        <li>The first frequency distribution example was identified as unimodal and symmetric (frequencies rose then
+            fell symmetrically; totals were noted as 100, making relative frequencies straightforward).
+        </li>
+        <li>Student matches/descriptions confirmed in discussion:
+            <ul>
+                <li>One match identified as right-skewed.</li>
+                <li>One match identified as left-skewed.</li>
+                <li>Two graphs identified as bimodal (two peaks); peaks do not need to be the same height, and
+                    bimodality can be subtle.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Chapter 4 transition: descriptive/summary statistics (EDA)</h2>
+    <ul>
+        <li>The course focus was framed as quantitative data analysis (intro-level statistics emphasizes
+            measured/counted variables more than categorical).
+        </li>
+        <li>Descriptive/summary statistics introduced as tools for:
+            <ul>
+                <li>Typical value (measures of central tendency)</li>
+                <li>Variation/spread</li>
+            </ul>
+        </li>
+        <li>Measures of central tendency covered:
+            <ul>
+                <li>Mean (average)</li>
+                <li>Median (middle value)</li>
+                <li>Mode (most frequent value)</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Mean/Median/Mode and Distribution Shape</h2>
+    <ul>
+        <li>Symmetric unimodal distributions are described as bell-shaped (normal/Gaussian); mean, median, and mode
+            align at/near the center.
+        </li>
+        <li>Median calculation refresher:
+            <ul>
+                <li>For small datasets: sort values and cross out from ends to find the middle.</li>
+                <li>Median location check (mainly as a reasonableness check): ((n+1)/2); for (n=10), locate the 5.5th
+                    position (between 5th and 6th values).
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Effect of an Extreme Value (Salary Example) and Skewness</h2>
+    <ul>
+        <li>Scenario change: replacing a high salary (previously $70,000) with $200,000.</li>
+        <li>Results after adding the extreme high value:
+            <ul>
+                <li>Mean increased to 72,000.</li>
+                <li>Median stayed 59,000.</li>
+                <li>Mode remained 59,000 (59 repeats).</li>
+            </ul>
+        </li>
+        <li>Interpretation:
+            <ul>
+                <li>Mean is sensitive to extreme high/low values; median is more robust/resistant.</li>
+                <li>The distribution becomes right-skewed (positively skewed) when pulled by a high outlier.</li>
+                <li>Rule of thumb emphasized: when mean &gt; median, the graph tends to be right-skewed; when mean &lt;
+                    median, it tends to be left-skewed.
+                </li>
+            </ul>
+        </li>
+        <li>Choosing a “typical” value:
+            <ul>
+                <li>For skewed distributions, use the median; using the mean can overestimate (right-skew) or
+                    underestimate (left-skew) the typical value.
+                </li>
+            </ul>
+        </li>
+        <li>Question addressed: adding a low value (e.g., $20,000) would not necessarily “fix” skewness if the high
+            outlier remains dominant; symmetry would require balancing extremes.
+        </li>
+    </ul>
+    <h2>Real-World Context: Salaries and Net Worth (Mean vs. Median)</h2>
+    <ul>
+        <li>Salary example (Class of 2021 bachelor’s graduates): average around $56,000 cited as an estimate; instructor
+            emphasized money-related distributions are often right-skewed, so more than 50% may fall below the mean.
+        </li>
+        <li>STEM majors highlighted as higher-average salary fields; computer science noted as high, but averages still
+            exceed what most graduates make due to right-skew.
+        </li>
+        <li>Net worth discussion (Federal Reserve framing):
+            <ul>
+                <li>Assets vs. liabilities; net worth = assets − liabilities.</li>
+                <li>Younger-than-35 group example: average net worth about 76,000 vs. median about 14,000; instructor
+                    stressed correct median interpretation (median is the 50th percentile, not “half have exactly the
+                    median”).
+                </li>
+                <li>General pattern: averages exceed medians by multiples due to extremely high net worth individuals
+                    pulling the mean up.
+                </li>
+            </ul>
+        </li>
+        <li>Additional illustration: Canvas assignment stats—zeros can drag mean down while median and percentiles
+            (e.g., 75th percentile = 100) indicate most students performed well.
+        </li>
+    </ul>
+    <h2>Measuring Spread: Range and Standard Deviation (Conceptual Start)</h2>
+    <ul>
+        <li>Range:
+            <ul>
+                <li>Defined as max − min.</li>
+                <li>Advantage: easy to compute.</li>
+                <li>Disadvantage: uses only two data points and ignores the rest of the distribution.</li>
+            </ul>
+        </li>
+        <li>Standard deviation (introduced conceptually):
+            <ul>
+                <li>Depends on the mean (computed relative to the mean, not median/mode).</li>
+                <li>Interpreted as approximating the average distance of data values from the mean.</li>
+                <li>Example scores: 84, 91, 65 with mean 80.
+                    <ul>
+                        <li>Deviations: +4, +11, −15; using distances (absolute values): 4, 11, 15.</li>
+                        <li>Average distance: (4+11+15)/3 = 10 → interpreted as “on average, scores are approximately 10
+                            points different from the mean.”
+                        </li>
+                    </ul>
+                </li>
+                <li>Instructor plans to cover the formal formula and calculation method in the next class.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Exam/Study Guide and Course Logistics</h2>
+    <ul>
+        <li>Exam format question: will include some multiple-choice questions; details deferred.</li>
+        <li>Instructor will show/share a study guide from last summer (same modality: online teaching, in-class exams)
+            during the next class, including format and question counts.
+        </li>
+        <li>Late-joining student asked for notes for chapters 1–2; instructor suggested posting in chat or reminding
+            instructor to ask the class for note-sharing.
+        </li>
+        <li>Homework platform logistics:
+            <ul>
+                <li>First homework due 5:00 PM tomorrow.</li>
+                <li>Students can register via Brightspace announcement link; payment not required immediately to
+                    register.
+                </li>
+                <li>If a student has issues or cannot finish by the deadline, they should email the instructor;
+                    instructor will reopen all homework during the last week.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Action items</h2>
+    <ul>
+        <li>Instructor to show a study guide from last summer in the next class (format, number of questions, modality
+            details).
+        </li>
+        <li>New student to type in the chat tomorrow to request chapter 1–2 notes (or remind the instructor to ask the
+            class).
+        </li>
+        <li>Students to register for the homework web account via Brightspace announcement link.</li>
+        <li>Students to complete the first homework by 5:00 PM tomorrow.</li>
+        <li>If unable to finish homework by the deadline, students to email the instructor (instructor indicated
+            homework will be reopened during the last week).
+        </li>
+    </ul>
 </div>
 </div>
 <h1 style='page-break-before: always;'>06-03.html</h1>
 <div class="master-container">
     <div class="hero">
         <h1>📊 Understanding Variation: Range, Standard Deviation & More</h1>
-        <p>Complete lesson: from two‑student extremes to average spread, calculation steps, interpretation, and notation</p>
+        <p>Complete lesson: from two‑student extremes to average spread, calculation steps, interpretation, and
+            notation</p>
     </div>
     <div class="content">
 
         <!-- ========== PART 1: RANGE vs STANDARD DEVIATION (intro) ========== -->
         <div class="section">
             <div class="section-title">📏 Range vs. Standard Deviation</div>
-            <p><strong>Range</strong> = highest score − lowest score. It's quick but uses only two values (min & max) and ignores all other data points. In a class of 35 students, range ignores 33 students' performance.</p>
+            <p><strong>Range</strong> = highest score − lowest score. It's quick but uses only two values (min & max)
+                and ignores all other data points. In a class of 35 students, range ignores 33 students' performance.
+            </p>
             <div class="highlight">
                 ✅ <strong>Advantage of range:</strong> Extremely easy to compute.<br>
-                ❌ <strong>Disadvantage:</strong> Ignores the whole distribution. Not reliable when data have similar range but different internal spread.
+                ❌ <strong>Disadvantage:</strong> Ignores the whole distribution. Not reliable when data have similar
+                range but different internal spread.
             </div>
-            <p><strong>Standard deviation</strong> approximates the <em>typical (average) distance</em> between each data point and the mean. It answers: “On average, how many points does each student's score differ from the class average?”</p>
+            <p><strong>Standard deviation</strong> approximates the <em>typical (average) distance</em> between each
+                data point and the mean. It answers: “On average, how many points does each student's score differ from
+                the class average?”</p>
             <div class="highlight" style="background:#eef2fa;">
-                🔑 <strong>Key relationship:</strong> You <strong>cannot</strong> compute standard deviation without first calculating the mean. They are “best friends” — almost inseparable. Mean first, then deviation from the mean.
+                🔑 <strong>Key relationship:</strong> You <strong>cannot</strong> compute standard deviation without
+                first calculating the mean. They are “best friends” — almost inseparable. Mean first, then deviation
+                from the mean.
             </div>
         </div>
 
         <!-- ========== PART 2: COMPANY EXAMPLE (same range, different spread) ========== -->
         <div class="section">
             <div class="section-title">🏢 Company age example — Why range isn’t enough</div>
-            <p>Three companies, each with 6 randomly selected employees (sample data). All have the <strong>same mean and median (45 years)</strong> and symmetric graphs. Companies 2 & 3 have identical range = 50 years, but the internal spread differs.</p>
+            <p>Three companies, each with 6 randomly selected employees (sample data). All have the <strong>same mean
+                and median (45 years)</strong> and symmetric graphs. Companies 2 & 3 have identical range = 50 years,
+                but the internal spread differs.</p>
             <div class="company-grid">
                 <div class="company-card">
                     <h4>Company 1</h4>
@@ -299,7 +446,9 @@
                     <p style="margin-top: 10px;">Ages: 20, 42, 44, 46, 48, 70<br>Min=20, Max=70</p>
                 </div>
             </div>
-            <p><strong>Observation:</strong> Companies 2 and 3 have identical range (50) and identical mean/median (45). Yet their age distributions are <em>not the same</em>. <strong>Range alone cannot distinguish between them.</strong> This proves range is not satisfactory for comparing variability.</p>
+            <p><strong>Observation:</strong> Companies 2 and 3 have identical range (50) and identical mean/median (45).
+                Yet their age distributions are <em>not the same</em>. <strong>Range alone cannot distinguish between
+                    them.</strong> This proves range is not satisfactory for comparing variability.</p>
         </div>
 
         <!-- ========== PART 3: THREE STEPS TO STANDARD DEVIATION ========== -->
@@ -317,22 +466,27 @@
             <div class="step">
                 <div class="step-title"><span class="step-number">2</span> Calculate sample variance (s²)</div>
                 <p>Deviations: (20−45)=−25, (42−45)=−3, (44−45)=−1, (46−45)=+1, (48−45)=+3, (70−45)=+25.<br>
-                Sum of raw deviations = 0 (always). So we square each deviation.</p>
+                    Sum of raw deviations = 0 (always). So we square each deviation.</p>
                 <div class="formula-block">
-                    s² = Σ (xᵢ − x̄)² / (n − 1) = (625+9+1+1+9+625) / 5 = 1270 / 5 = <strong>254</strong> (squared years)
+                    s² = Σ (xᵢ − x̄)² / (n − 1) = (625+9+1+1+9+625) / 5 = 1270 / 5 = <strong>254</strong> (squared
+                    years)
                 </div>
                 <div class="warning">
-                    ⚠️ Variance has no practical real-world unit (squared years) — it's an intermediate mathematical step.
+                    ⚠️ Variance has no practical real-world unit (squared years) — it's an intermediate mathematical
+                    step.
                 </div>
             </div>
 
             <div class="step">
-                <div class="step-title"><span class="step-number">3</span> Take square root → Sample standard deviation (s)</div>
+                <div class="step-title"><span class="step-number">3</span> Take square root → Sample standard deviation
+                    (s)
+                </div>
                 <div class="formula-block">
                     s = √(s²) = √254 ≈ <strong>15.94 years</strong>
                 </div>
                 <div class="highlight">
-                    🎯 <strong>Interpretation:</strong> On average, each employee's age differs from the mean (45 years) by about <strong>15.94 years</strong>.
+                    🎯 <strong>Interpretation:</strong> On average, each employee's age differs from the mean (45 years)
+                    by about <strong>15.94 years</strong>.
                 </div>
             </div>
         </div>
@@ -342,7 +496,9 @@
             <div class="section-title">📖 Interpreting standard deviation & comparing companies</div>
             <div class="interpret-box">
                 <p style="font-weight: 600;">🔍 What does s = 15.9 (Company 2) or s = 18.7 (Company 3) tell us?</p>
-                <p>For Company 3, standard deviation ≈ 18.7 years means: on average, each person's age differs from 45 by about 18.7 years. Some much younger, some older, but after averaging those differences, that's the typical deviation.</p>
+                <p>For Company 3, standard deviation ≈ 18.7 years means: on average, each person's age differs from 45
+                    by about 18.7 years. Some much younger, some older, but after averaging those differences, that's
+                    the typical deviation.</p>
             </div>
             <div class="comparison-grid">
                 <div class="card">
@@ -358,20 +514,27 @@
             </div>
             <div class="note">
                 <strong>❓ Why is Company 2's standard deviation smaller?</strong><br>
-                Because most ages are very close to 45 (two values exactly at 45, others 30 and 60 moderate). Company 3 has intermediate ages (42,44,46,48) creating larger overall dispersion.
+                Because most ages are very close to 45 (two values exactly at 45, others 30 and 60 moderate). Company 3
+                has intermediate ages (42,44,46,48) creating larger overall dispersion.
             </div>
         </div>
 
         <!-- ========== PART 5: FINANCE / REAL-WORLD APPLICATION ========== -->
         <div class="section">
             <div class="section-title">💹 Standard deviation in finance (risk & volatility)</div>
-            <p>In finance, standard deviation measures <strong>volatility</strong> — the risk of an investment. Two stocks may have the same expected return (mean), but the one with larger price swings has a larger standard deviation (higher risk).</p>
+            <p>In finance, standard deviation measures <strong>volatility</strong> — the risk of an investment. Two
+                stocks may have the same expected return (mean), but the one with larger price swings has a larger
+                standard deviation (higher risk).</p>
             <div class="highlight" style="background:#eef2fa;">
-                🧓 <strong>Investment note:</strong> When young, higher risk (larger SD) may be acceptable. As you get older, you prefer investments with <strong>lower standard deviation</strong> → less uncertainty and lower risk.
+                🧓 <strong>Investment note:</strong> When young, higher risk (larger SD) may be acceptable. As you get
+                older, you prefer investments with <strong>lower standard deviation</strong> → less uncertainty and
+                lower risk.
             </div>
             <div style="background:#f9f2e0; padding: 1rem 1.3rem; border-radius: 20px; margin: 1rem 0;">
                 <p style="font-weight: 700;">📌 Extreme case: Standard deviation = 0</p>
-                <p>Standard deviation can be zero — the lowest possible value. This means <strong>no spread at all</strong>; all data points are exactly the same. (e.g., every employee age = 45). Variance and standard deviation are always ≥ 0.</p>
+                <p>Standard deviation can be zero — the lowest possible value. This means <strong>no spread at
+                    all</strong>; all data points are exactly the same. (e.g., every employee age = 45). Variance and
+                    standard deviation are always ≥ 0.</p>
             </div>
         </div>
 
@@ -385,7 +548,10 @@
                 <span class="vocab-item">🎯 Dispersion</span>
                 <span class="vocab-item">📊 Volatility (finance)</span>
             </div>
-            <p>These terms are used interchangeably when describing how data scatters. However, "<strong>deviation</strong>" specifically refers to the <em>difference between a data point and the mean</em> (xᵢ − x̄). Variation/variability are broader statistical concepts but essentially mean the same thing: the amount of spread in a dataset.</p>
+            <p>These terms are used interchangeably when describing how data scatters. However,
+                "<strong>deviation</strong>" specifically refers to the <em>difference between a data point and the
+                    mean</em> (xᵢ − x̄). Variation/variability are broader statistical concepts but essentially mean the
+                same thing: the amount of spread in a dataset.</p>
         </div>
 
         <!-- ========== PART 7: NOTATION CLARIFICATION (SAMPLE vs POPULATION) ========== -->
@@ -412,7 +578,8 @@
             <div class="formula-block" style="margin-top: 1rem;">
                 🔁 √(variance) = standard deviation &nbsp;&nbsp; (for both sample and population)
             </div>
-            <p class="highlight" style="margin-top: 1rem;">Whenever you take the square root of variance, you obtain standard deviation — regardless of whether it's a sample (s) or population (σ).</p>
+            <p class="highlight" style="margin-top: 1rem;">Whenever you take the square root of variance, you obtain
+                standard deviation — regardless of whether it's a sample (s) or population (σ).</p>
         </div>
 
         <!-- ========== FINAL SUMMARY BOX ========== -->
@@ -421,420 +588,500 @@
             🧠 <strong>Complete takeaway:</strong><br>
             • <strong>Range</strong> is quick but ignores most data.<br>
             • <strong>Standard deviation</strong> uses all values and the mean — average distance from the mean.<br>
-            • <strong>Calculation path:</strong> Mean → deviations → squared deviations → variance → square root → SD.<br>
+            • <strong>Calculation path:</strong> Mean → deviations → squared deviations → variance → square root →
+            SD.<br>
             • Larger SD = more spread; SD = 0 → no variation.<br>
             • Spread, variability, dispersion, volatility all refer to the same core idea.<br>
             • Sample notation: x̄, s², s &nbsp;|&nbsp; Population notation: μ, σ², σ.
         </div>
     </div>
     <footer>
-        Complete lesson summary: Range, standard deviation calculation (3 steps), interpretation, company comparison, finance application, vocabulary, and sample vs. population notation.
+        Complete lesson summary: Range, standard deviation calculation (3 steps), interpretation, company comparison,
+        finance application, vocabulary, and sample vs. population notation.
     </footer>
 </div>
-<h1>06-04.html</h1><div><h2>Overview</h2>
-<p>Covered interpretation of standard deviation/variance, then walked through building a box&#45;and&#45;whisker plot from a five&#45;number summary (including IQR and outlier detection via fences) using an annual&#45;income example. Also previewed how these concepts appear on the first exam (reading graphs, identifying skewness, and limits of what can be computed from a five&#45;number summary).</p>
-<h2>Standard deviation vs. variance (interpretation)</h2>
-<ul>
-<li>Confirmed conceptual link: if you know standard deviation, you should know variance (applies to both sample and population).</li>
-<li>Multiple&#45;choice check: correct choice was A (standard deviation is tied to deviations from the mean).</li>
-<li>Interpreting a standard deviation example (SD = 23 for weights):
-<ul>
-<li>On average, each person's weight differs from the mean by about 23 pounds (average deviation from the mean).</li>
-<li>Emphasis: individuals vary; SD summarizes the typical distance from the mean, not exact differences for each person.</li>
-</ul>
-</li>
-</ul>
-<h2>Box&#45;and&#45;whisker plot: five&#45;number summary (annual incomes example, n = 12)</h2>
-<ul>
-<li>Goal: create a box&#45;and&#45;whisker plot and describe distribution shape.</li>
-<li>Five&#45;number summary components reviewed: minimum, Q1, median (Q2), Q3, maximum.</li>
-<li>Computed values (in $ thousands):
-<ul>
-<li>Minimum = 17</li>
-<li>Q1 = 25 (median of the lower half; between 23 and 27)</li>
-<li>Median (Q2) = 35 (between 32 and 38)</li>
-<li>Q3 = 49 (between 46 and 52)</li>
-<li>Maximum = 92</li>
-</ul>
-</li>
-<li>Median interpretation clarification:
-<ul>
-<li>Correct: 50% of observations are below the median and 50% above.</li>
-<li>Incorrect interpretation to avoid: "half of people make exactly $35,000" (in this dataset, nobody makes exactly 35).</li>
-</ul>
-</li>
-</ul>
-<h2>Quartiles when the sample size is odd (n = 13 question)</h2>
-<ul>
-<li>If n = 13, median is a single data value.</li>
-<li>After identifying the median, do not include the median value when finding Q1 and Q3 (compute quartiles from the lower 50% and upper 50% excluding the median).</li>
-</ul>
-<h2>IQR and outliers (fences)</h2>
-<ul>
-<li>IQR computation:
-<ul>
-<li>IQR = Q3 &#45; Q1 = 49 &#45; 25 = 24</li>
-</ul>
-</li>
-<li>Inner fence formulas (used for outlier detection):
-<ul>
-<li>Lower inner fence = Q1 &#45; 1.5 x IQR = 25 &#45; 1.5x24 = 25 &#45; 36 = &#45;11</li>
-<li>Upper inner fence = Q3 + 1.5 &times; IQR = 49 + 36 = 85</li>
-</ul>
-</li>
-<li>Common mistake noted (happened in class): subtracting instead of adding for the upper inner fence (some got 13).</li>
-<li>Outlier rule applied:
-<ul>
-<li>Any value &lt; &#45;11 or &gt; 85 is an outlier.</li>
-<li>In this dataset: no low outlier (income can't be negative), and 92 is a high outlier (since 92 &gt; 85).</li>
-</ul>
-</li>
-</ul>
-<h2>Constructing and reading the box&#45;and&#45;whisker plot (including outlier handling)</h2>
-<ul>
-<li>Number line set from about 15 to 95 for plotting.</li>
-<li>Box spans Q1 to Q3 with a line at the median.</li>
-<li>Whiskers:
-<ul>
-<li>Left whisker extends to minimum (17).</li>
-<li>Right whisker extends to the highest non&#45;outlier value (not to the outlier); in the example, whisker goes up to 60 (highest value excluding the outlier).</li>
-</ul>
-</li>
-<li>Important clarification:
-<ul>
-<li>The fences (&#45;11 and 85) are thresholds and are not plotted on the boxplot.</li>
-<li>The outlier is plotted (e.g., as a point), not the fence value.</li>
-</ul>
-</li>
-</ul>
-<h2>Outlier markers and inner vs outer fence question</h2>
-<ul>
-<li>Outlier marking symbol (open/closed circle) doesn't matter at this level.</li>
-<li>Mentioned distinction in more detailed analysis:
-<ul>
-<li>Mild vs extreme outliers may use different symbols in statistical software; Excel may not distinguish them.</li>
-</ul>
-</li>
-<li>Open question explored: "inner fence" terminology vs possible "outer fence"
-<ul>
-<li>Instructor suspected a possible extension: extreme outlier thresholds might use 3&times;IQR (Q1 &#45; 3&times;IQR, Q3 + 3&times;IQR), and may be called "outer fences."</li>
-<li>Instructor said they would double&#45;check naming/terminology.</li>
-</ul>
-</li>
-</ul>
-<h2>Shape of distribution (income example)</h2>
-<ul>
-<li>Class conclusion: distribution is right&#45;skewed.</li>
-<li>Rationale:
-<ul>
-<li>High outlier (92) stretches the distribution to the right.</li>
-<li>Mean &gt; median aligns with right skew.</li>
-<li>75% of salaries cluster in the lower&#45;to&#45;middle range, with a long right tail.</li>
-</ul>
-</li>
-</ul>
-<h2>Boxplots vs other graphs (outliers)</h2>
-<ul>
-<li>Box&#45;and&#45;whisker plots explicitly show outliers.</li>
-<li>Stem&#45;and&#45;leaf, dot plots, and histograms do not show outliers as a special marked feature (though outliers can still be computed).</li>
-</ul>
-<h2>Side&#45;by&#45;side (comparative) boxplots (preview)</h2>
-<ul>
-<li>Boxplots often used to compare a quantitative variable across categories (e.g., hours of sleep by day of week).</li>
-</ul>
-<h2>Example 5: interpreting a five&#45;number summary (midterm scores, n = 30)</h2>
-<ul>
-<li>Task framing:
-<ul>
-<li>Given five&#45;number summary values, identify which is min, Q1, median (Q2), Q3, max.</li>
-</ul>
-</li>
-<li>Values discussed (unsorted initially); correct ordering:
-<ul>
-<li>30, 56, 73, 87, 94</li>
-<li>Minimum = 30, Q1 = 56, Median (Q2) = 73, Q3 = 87, Maximum = 94</li>
-</ul>
-</li>
-<li>Key point:
-<ul>
-<li>You cannot compute the class mean from only the five&#45;number summary (need all 30 scores).</li>
-<li>Median is still known because it is part of the five&#45;number summary (Q2).</li>
-</ul>
-</li>
-</ul>
-<h2>EDA / chapter wrap&#45;up and exam framing</h2>
-<ul>
-<li>EDA flow referenced:
-<ul>
-<li>Check data quality &#45;&gt; identify data type (categorical vs quantitative; quantitative &#45;&gt; discrete vs continuous).</li>
-</ul>
-</li>
-<li>Chapter emphasis:
-<ul>
-<li>Chapter 3: graphical summaries (frequency distributions; bar/pie for categorical).</li>
-<li>Chapter 4: numerical summaries for quantitative data.</li>
-</ul>
-</li>
-<li>Business example referenced (online transactions):
-<ul>
-<li>Categorical variable example: day of week (used for bar/pie to find busy/slow days and plan promotions).</li>
-<li>Quantitative variable example: sales amount per transaction.</li>
-</ul>
-</li>
-</ul>
-<h2>Sales amount example (exam&#45;style)</h2>
-<ul>
-<li>Determining skewness from summary statistics:
-<ul>
-<li>Right&#45;skewed because mean &gt; median (not because the list is sorted).</li>
-</ul>
-</li>
-<li>About "how much bigger" mean must be than median:
-<ul>
-<li>For exam purposes, if symmetric, mean and median will be exactly equal.</li>
-<li>For practical use, "skewness" statistic exists; rule&#45;of&#45;thumb mentioned: skewness between &#45;0.5 and +0.5 suggests approximately symmetric (no strict threshold).</li>
-</ul>
-</li>
-<li>Standard deviation question:
-<ul>
-<li>A student computed SD as 32.34 (noted with a percent sign, though context was sales amount).</li>
-</ul>
-</li>
-<li>Graph interpretation reminders for exam:
-<ul>
-<li>May be asked to interpret a provided histogram/boxplot or summary stats without raw data.</li>
-<li>Sales example boxplot indicated two upper outliers and right skew (mean higher than median).</li>
-</ul>
-</li>
-</ul>
-<h2>Action items</h2>
-<ul>
-<li>Follow up on whether "lower outer fence" / "upper outer fence" terminology is standard and confirm the extreme&#45;outlier rule using 3&times;IQR (instructor said they would double&#45;check).</li>
-</ul>
+<h1>06-04.html</h1>
+<div><h2>Overview</h2>
+    <p>Covered interpretation of standard deviation/variance, then walked through building a box&#45;and&#45;whisker
+        plot from a five&#45;number summary (including IQR and outlier detection via fences) using an annual&#45;income
+        example. Also previewed how these concepts appear on the first exam (reading graphs, identifying skewness, and
+        limits of what can be computed from a five&#45;number summary).</p>
+    <h2>Standard deviation vs. variance (interpretation)</h2>
+    <ul>
+        <li>Confirmed conceptual link: if you know standard deviation, you should know variance (applies to both sample
+            and population).
+        </li>
+        <li>Multiple&#45;choice check: correct choice was A (standard deviation is tied to deviations from the mean).
+        </li>
+        <li>Interpreting a standard deviation example (SD = 23 for weights):
+            <ul>
+                <li>On average, each person's weight differs from the mean by about 23 pounds (average deviation from
+                    the mean).
+                </li>
+                <li>Emphasis: individuals vary; SD summarizes the typical distance from the mean, not exact differences
+                    for each person.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Box&#45;and&#45;whisker plot: five&#45;number summary (annual incomes example, n = 12)</h2>
+    <ul>
+        <li>Goal: create a box&#45;and&#45;whisker plot and describe distribution shape.</li>
+        <li>Five&#45;number summary components reviewed: minimum, Q1, median (Q2), Q3, maximum.</li>
+        <li>Computed values (in $ thousands):
+            <ul>
+                <li>Minimum = 17</li>
+                <li>Q1 = 25 (median of the lower half; between 23 and 27)</li>
+                <li>Median (Q2) = 35 (between 32 and 38)</li>
+                <li>Q3 = 49 (between 46 and 52)</li>
+                <li>Maximum = 92</li>
+            </ul>
+        </li>
+        <li>Median interpretation clarification:
+            <ul>
+                <li>Correct: 50% of observations are below the median and 50% above.</li>
+                <li>Incorrect interpretation to avoid: "half of people make exactly $35,000" (in this dataset, nobody
+                    makes exactly 35).
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Quartiles when the sample size is odd (n = 13 question)</h2>
+    <ul>
+        <li>If n = 13, median is a single data value.</li>
+        <li>After identifying the median, do not include the median value when finding Q1 and Q3 (compute quartiles from
+            the lower 50% and upper 50% excluding the median).
+        </li>
+    </ul>
+    <h2>IQR and outliers (fences)</h2>
+    <ul>
+        <li>IQR computation:
+            <ul>
+                <li>IQR = Q3 &#45; Q1 = 49 &#45; 25 = 24</li>
+            </ul>
+        </li>
+        <li>Inner fence formulas (used for outlier detection):
+            <ul>
+                <li>Lower inner fence = Q1 &#45; 1.5 x IQR = 25 &#45; 1.5x24 = 25 &#45; 36 = &#45;11</li>
+                <li>Upper inner fence = Q3 + 1.5 &times; IQR = 49 + 36 = 85</li>
+            </ul>
+        </li>
+        <li>Common mistake noted (happened in class): subtracting instead of adding for the upper inner fence (some got
+            13).
+        </li>
+        <li>Outlier rule applied:
+            <ul>
+                <li>Any value &lt; &#45;11 or &gt; 85 is an outlier.</li>
+                <li>In this dataset: no low outlier (income can't be negative), and 92 is a high outlier (since 92 &gt;
+                    85).
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Constructing and reading the box&#45;and&#45;whisker plot (including outlier handling)</h2>
+    <ul>
+        <li>Number line set from about 15 to 95 for plotting.</li>
+        <li>Box spans Q1 to Q3 with a line at the median.</li>
+        <li>Whiskers:
+            <ul>
+                <li>Left whisker extends to minimum (17).</li>
+                <li>Right whisker extends to the highest non&#45;outlier value (not to the outlier); in the example,
+                    whisker goes up to 60 (highest value excluding the outlier).
+                </li>
+            </ul>
+        </li>
+        <li>Important clarification:
+            <ul>
+                <li>The fences (&#45;11 and 85) are thresholds and are not plotted on the boxplot.</li>
+                <li>The outlier is plotted (e.g., as a point), not the fence value.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Outlier markers and inner vs outer fence question</h2>
+    <ul>
+        <li>Outlier marking symbol (open/closed circle) doesn't matter at this level.</li>
+        <li>Mentioned distinction in more detailed analysis:
+            <ul>
+                <li>Mild vs extreme outliers may use different symbols in statistical software; Excel may not
+                    distinguish them.
+                </li>
+            </ul>
+        </li>
+        <li>Open question explored: "inner fence" terminology vs possible "outer fence"
+            <ul>
+                <li>Instructor suspected a possible extension: extreme outlier thresholds might use 3&times;IQR (Q1
+                    &#45; 3&times;IQR, Q3 + 3&times;IQR), and may be called "outer fences."
+                </li>
+                <li>Instructor said they would double&#45;check naming/terminology.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Shape of distribution (income example)</h2>
+    <ul>
+        <li>Class conclusion: distribution is right&#45;skewed.</li>
+        <li>Rationale:
+            <ul>
+                <li>High outlier (92) stretches the distribution to the right.</li>
+                <li>Mean &gt; median aligns with right skew.</li>
+                <li>75% of salaries cluster in the lower&#45;to&#45;middle range, with a long right tail.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Boxplots vs other graphs (outliers)</h2>
+    <ul>
+        <li>Box&#45;and&#45;whisker plots explicitly show outliers.</li>
+        <li>Stem&#45;and&#45;leaf, dot plots, and histograms do not show outliers as a special marked feature (though
+            outliers can still be computed).
+        </li>
+    </ul>
+    <h2>Side&#45;by&#45;side (comparative) boxplots (preview)</h2>
+    <ul>
+        <li>Boxplots often used to compare a quantitative variable across categories (e.g., hours of sleep by day of
+            week).
+        </li>
+    </ul>
+    <h2>Example 5: interpreting a five&#45;number summary (midterm scores, n = 30)</h2>
+    <ul>
+        <li>Task framing:
+            <ul>
+                <li>Given five&#45;number summary values, identify which is min, Q1, median (Q2), Q3, max.</li>
+            </ul>
+        </li>
+        <li>Values discussed (unsorted initially); correct ordering:
+            <ul>
+                <li>30, 56, 73, 87, 94</li>
+                <li>Minimum = 30, Q1 = 56, Median (Q2) = 73, Q3 = 87, Maximum = 94</li>
+            </ul>
+        </li>
+        <li>Key point:
+            <ul>
+                <li>You cannot compute the class mean from only the five&#45;number summary (need all 30 scores).</li>
+                <li>Median is still known because it is part of the five&#45;number summary (Q2).</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>EDA / chapter wrap&#45;up and exam framing</h2>
+    <ul>
+        <li>EDA flow referenced:
+            <ul>
+                <li>Check data quality &#45;&gt; identify data type (categorical vs quantitative; quantitative &#45;&gt;
+                    discrete vs continuous).
+                </li>
+            </ul>
+        </li>
+        <li>Chapter emphasis:
+            <ul>
+                <li>Chapter 3: graphical summaries (frequency distributions; bar/pie for categorical).</li>
+                <li>Chapter 4: numerical summaries for quantitative data.</li>
+            </ul>
+        </li>
+        <li>Business example referenced (online transactions):
+            <ul>
+                <li>Categorical variable example: day of week (used for bar/pie to find busy/slow days and plan
+                    promotions).
+                </li>
+                <li>Quantitative variable example: sales amount per transaction.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Sales amount example (exam&#45;style)</h2>
+    <ul>
+        <li>Determining skewness from summary statistics:
+            <ul>
+                <li>Right&#45;skewed because mean &gt; median (not because the list is sorted).</li>
+            </ul>
+        </li>
+        <li>About "how much bigger" mean must be than median:
+            <ul>
+                <li>For exam purposes, if symmetric, mean and median will be exactly equal.</li>
+                <li>For practical use, "skewness" statistic exists; rule&#45;of&#45;thumb mentioned: skewness between
+                    &#45;0.5 and +0.5 suggests approximately symmetric (no strict threshold).
+                </li>
+            </ul>
+        </li>
+        <li>Standard deviation question:
+            <ul>
+                <li>A student computed SD as 32.34 (noted with a percent sign, though context was sales amount).</li>
+            </ul>
+        </li>
+        <li>Graph interpretation reminders for exam:
+            <ul>
+                <li>May be asked to interpret a provided histogram/boxplot or summary stats without raw data.</li>
+                <li>Sales example boxplot indicated two upper outliers and right skew (mean higher than median).</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Action items</h2>
+    <ul>
+        <li>Follow up on whether "lower outer fence" / "upper outer fence" terminology is standard and confirm the
+            extreme&#45;outlier rule using 3&times;IQR (instructor said they would double&#45;check).
+        </li>
+    </ul>
 </div>
 
-<div><p>{x}</p>
-</div><h1>06-08.html</h1><div><h2>Overview</h2>
-<p>The session covered core probability ideas using coin&#45;toss examples (fair vs. unfair), translating outcomes into fractions/decimals/percentages, multiplying probabilities across independent trials, and using complements to compute &ldquo;at least one&rdquo; probabilities. It concluded with applying the same logic to a real&#45;world train&#45;track stopping problem across a workweek.</p>
-<h2>Coin toss probability (fair coin)</h2>
-<ul>
-<li>For 3 tosses of a fair coin, any specific ordered outcome (e.g., H&#45;T&#45;H) has probability 1/8 = 12.5%.</li>
-<li>&ldquo;Exactly one tail&rdquo; in 3 tosses has 3 favorable outcomes (T&#45;H&#45;H, H&#45;T&#45;H, H&#45;H&#45;T) out of 8:
-<ul>
-<li>Probability = 3/8 = 0.375 = 37.5%.</li>
-</ul>
-</li>
-<li>Notation/representation caution:
-<ul>
-<li>0.375% is incorrect when the correct probability is 37.5% (or 0.375).</li>
-</ul>
-</li>
-</ul>
-<h2>Multiplying probabilities across tosses (fair coin)</h2>
-<ul>
-<li>Independent&#45;trial multiplication shown via repeated &ldquo;take half again&rdquo;:
-<ul>
-<li>P(H) = 50%</li>
-<li>P(HH) = 50% of 50% = 25%</li>
-<li>P(HHH) = 50% of 25% = 12.5%</li>
-<li>P(HHHH) = 50% of 12.5% = 6.25%</li>
-</ul>
-</li>
-<li>Conceptual emphasis: for a fair coin, each additional required head multiplies by 1/2 again.</li>
-</ul>
-<h2>Unfair coin examples (e.g., P(H)=80%)</h2>
-<ul>
-<li>If the coin is unfair with P(H)=80% and P(T)=20%:
-<ul>
-<li>P(H) = 80%</li>
-<li>P(HH) = 80% of 80% = 64%</li>
-<li>P(HHH) = 80% of 64% = 51.2%</li>
-</ul>
-</li>
-<li>Mixed&#45;sequence examples:
-<ul>
-<li>P(HHT) = 20% of 64% = 12.8% (equivalently 0.8 &times; 0.8 &times; 0.2)</li>
-<li>P(HHTT) = 20% of 12.8% = 2.56% (equivalently 0.8 &times; 0.8 &times; 0.2 &times; 0.2)</li>
-</ul>
-</li>
-<li>Generalization discussed:
-<ul>
-<li>If P(H)=40%, then P(HH)=40% of 40% = 16%, and further multiplications continue similarly (using 40% for H, 60% for T).</li>
-</ul>
-</li>
-</ul>
-<h2>Probability properties and complement rule</h2>
-<ul>
-<li>Probability bounds:
-<ul>
-<li>Each event probability must be between 0% and 100% (equivalently between 0 and 1).</li>
-</ul>
-</li>
-<li>Total probability across all outcomes:
-<ul>
-<li>Probabilities of all outcomes in the full sample space must sum to 100% (1).</li>
-</ul>
-</li>
-<li>Complement concept:
-<ul>
-<li>If P(A)=30% (rain tomorrow), then P(A<sup>C</sup>)=70% (no rain tomorrow).</li>
-<li>Complement is treated as binary &ldquo;A vs not A&rdquo; (discussion indicated complements are not &ldquo;multiple events all complementing each other&rdquo;).</li>
-</ul>
-</li>
-<li>&ldquo;At least one&rdquo; via complement:
-<ul>
-<li>For 3 fair coin tosses: P(at least one head) = 1 &#45; P(no heads).</li>
-<li>P(no heads) = P(TTT) = 1/8 = 12.5%.</li>
-<li>So P(at least one head) = 7/8 = 87.5%.</li>
-<li>Long way: count 7 winning outcomes out of 8; quick way: 100% &#45; 12.5%.</li>
-</ul>
-</li>
-</ul>
-<h2>Train&#45;track stopping problem (weekday workweek)</h2>
-<ul>
-<li>Setup:
-<ul>
-<li>Probability of getting stopped on a given weekday = 15%.</li>
-<li>Probability of not getting stopped = 85% (complement).</li>
-</ul>
-</li>
-<li>Part A (stopped Monday and Tuesday):
-<ul>
-<li>P(stop Mon and Tue) = 15% &times; 15% = 2.25%.</li>
-</ul>
-</li>
-<li>Clarification made during discussion:
-<ul>
-<li>&ldquo;Every day&rdquo; means every weekday (Mon&#45;Fri).</li>
-</ul>
-</li>
-</ul>
-<h2>Action items</h2>
-<ul>
-<li>Compute remaining parts (B, C, D, E) of the train&#45;track probability question using the same multiplication/complement approach (left for students to work on after Part A).</li>
-<li>Follow up on the open question about whether complements can be non&#45;binary (&ldquo;If I find an exception, I'll let you know&rdquo; was stated; no resolution given in the discussion).</li>
-</ul>
+<div>
+</div>
+<h1>06-08.html</h1>
+<div><h2>Overview</h2>
+    <p>The session covered core probability ideas using coin&#45;toss examples (fair vs. unfair), translating outcomes
+        into fractions/decimals/percentages, multiplying probabilities across independent trials, and using complements
+        to compute &ldquo;at least one&rdquo; probabilities. It concluded with applying the same logic to a real&#45;world
+        train&#45;track stopping problem across a workweek.</p>
+    <h2>Coin toss probability (fair coin)</h2>
+    <ul>
+        <li>For 3 tosses of a fair coin, any specific ordered outcome (e.g., H&#45;T&#45;H) has probability 1/8 =
+            12.5%.
+        </li>
+        <li>&ldquo;Exactly one tail&rdquo; in 3 tosses has 3 favorable outcomes (T&#45;H&#45;H, H&#45;T&#45;H, H&#45;H&#45;T)
+            out of 8:
+            <ul>
+                <li>Probability = 3/8 = 0.375 = 37.5%.</li>
+            </ul>
+        </li>
+        <li>Notation/representation caution:
+            <ul>
+                <li>0.375% is incorrect when the correct probability is 37.5% (or 0.375).</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Multiplying probabilities across tosses (fair coin)</h2>
+    <ul>
+        <li>Independent&#45;trial multiplication shown via repeated &ldquo;take half again&rdquo;:
+            <ul>
+                <li>P(H) = 50%</li>
+                <li>P(HH) = 50% of 50% = 25%</li>
+                <li>P(HHH) = 50% of 25% = 12.5%</li>
+                <li>P(HHHH) = 50% of 12.5% = 6.25%</li>
+            </ul>
+        </li>
+        <li>Conceptual emphasis: for a fair coin, each additional required head multiplies by 1/2 again.</li>
+    </ul>
+    <h2>Unfair coin examples (e.g., P(H)=80%)</h2>
+    <ul>
+        <li>If the coin is unfair with P(H)=80% and P(T)=20%:
+            <ul>
+                <li>P(H) = 80%</li>
+                <li>P(HH) = 80% of 80% = 64%</li>
+                <li>P(HHH) = 80% of 64% = 51.2%</li>
+            </ul>
+        </li>
+        <li>Mixed&#45;sequence examples:
+            <ul>
+                <li>P(HHT) = 20% of 64% = 12.8% (equivalently 0.8 &times; 0.8 &times; 0.2)</li>
+                <li>P(HHTT) = 20% of 12.8% = 2.56% (equivalently 0.8 &times; 0.8 &times; 0.2 &times; 0.2)</li>
+            </ul>
+        </li>
+        <li>Generalization discussed:
+            <ul>
+                <li>If P(H)=40%, then P(HH)=40% of 40% = 16%, and further multiplications continue similarly (using 40%
+                    for H, 60% for T).
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Probability properties and complement rule</h2>
+    <ul>
+        <li>Probability bounds:
+            <ul>
+                <li>Each event probability must be between 0% and 100% (equivalently between 0 and 1).</li>
+            </ul>
+        </li>
+        <li>Total probability across all outcomes:
+            <ul>
+                <li>Probabilities of all outcomes in the full sample space must sum to 100% (1).</li>
+            </ul>
+        </li>
+        <li>Complement concept:
+            <ul>
+                <li>If P(A)=30% (rain tomorrow), then P(A<sup>C</sup>)=70% (no rain tomorrow).</li>
+                <li>Complement is treated as binary &ldquo;A vs not A&rdquo; (discussion indicated complements are not
+                    &ldquo;multiple events all complementing each other&rdquo;).
+                </li>
+            </ul>
+        </li>
+        <li>&ldquo;At least one&rdquo; via complement:
+            <ul>
+                <li>For 3 fair coin tosses: P(at least one head) = 1 &#45; P(no heads).</li>
+                <li>P(no heads) = P(TTT) = 1/8 = 12.5%.</li>
+                <li>So P(at least one head) = 7/8 = 87.5%.</li>
+                <li>Long way: count 7 winning outcomes out of 8; quick way: 100% &#45; 12.5%.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Train&#45;track stopping problem (weekday workweek)</h2>
+    <ul>
+        <li>Setup:
+            <ul>
+                <li>Probability of getting stopped on a given weekday = 15%.</li>
+                <li>Probability of not getting stopped = 85% (complement).</li>
+            </ul>
+        </li>
+        <li>Part A (stopped Monday and Tuesday):
+            <ul>
+                <li>P(stop Mon and Tue) = 15% &times; 15% = 2.25%.</li>
+            </ul>
+        </li>
+        <li>Clarification made during discussion:
+            <ul>
+                <li>&ldquo;Every day&rdquo; means every weekday (Mon&#45;Fri).</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Action items</h2>
+    <ul>
+        <li>Compute remaining parts (B, C, D, E) of the train&#45;track probability question using the same
+            multiplication/complement approach (left for students to work on after Part A).
+        </li>
+        <li>Follow up on the open question about whether complements can be non&#45;binary (&ldquo;If I find an
+            exception, I'll let you know&rdquo; was stated; no resolution given in the discussion).
+        </li>
+    </ul>
 </div>
 
 
 <div><h2>Overview</h2>
-<p>The class worked through probability problems (parts A&#45;E) focused on &ldquo;stopping&rdquo; events across Monday&#45;Friday, emphasizing complements and correct calculator/scientific&#45;notation handling. The session then shifted to core set/probability language (and/or, intersection/union via Venn diagrams) and closed with an interpretation framework for a contingency table about &ldquo;highest degree&rdquo; vs. employment status (ensuring categories are mutually exclusive because they reflect highest degree).</p>
-<h2>Probability problems (A&#45;E) — stopping events across the week</h2>
-<ul>
-<li>Students selected/confirmed which parts to attempt (B, C, D, E discussed most).</li>
-<li>Key interpretation for &ldquo;first time on Thursday&rdquo;:
-<ul>
-<li>Monday: do not stop</li>
-<li>Tuesday: do not stop</li>
-<li>Wednesday: do not stop</li>
-<li>Thursday: must stop</li>
-<li>Friday: does not matter (can stop or not stop), so it effectively multiplies by 1 (&ldquo;100%&rdquo;) in that computation.</li>
-</ul>
-</li>
-<li>Complement relationship highlighted:
-<ul>
-<li>&ldquo;Stop at least once (one or more)&rdquo; is the complement of &ldquo;don&#39;t stop at all.&rdquo;</li>
-<li>Parts B and E were explicitly described as complements.</li>
-</ul>
-</li>
-</ul>
-<h3>Part B (first stop on Thursday)</h3>
-<ul>
-<li>Correct setup explained as: (0.85 for Mon) &times; (0.85 for Tue) &times; (0.85 for Wed) &times; (0.15 for Thu) &times; (1 for Fri either way).</li>
-<li>Reported correct numeric answer:
-<ul>
-<li>0.0921 = 9.21%.</li>
-</ul>
-</li>
-</ul>
-<h3>Part D (no stops at all / all non&#45;stops)</h3>
-<ul>
-<li>Computed as 0.85 multiplied by itself five times.</li>
-<li>Result accepted:
-<ul>
-<li>0.4437 &asymp; 44.37%.</li>
-</ul>
-</li>
-<li>Follow&#45;up clarification:
-<ul>
-<li>&ldquo;At least one stop&rdquo; = 100% &#45; 44.37%.</li>
-</ul>
-</li>
-</ul>
-<h3>Part E (stop every single day)</h3>
-<ul>
-<li>Computed as 0.15 multiplied by itself five times.</li>
-<li>Corrected value after a self&#45;correction:
-<ul>
-<li>0.0076% (professor corrected from an earlier misstatement).</li>
-</ul>
-</li>
-<li>Calculator note:
-<ul>
-<li>Graphing calculators may show scientific notation; interpret &ldquo;E&#45;5&rdquo; as moving the decimal 5 places left.</li>
-</ul>
-</li>
-</ul>
-<h3>Common error addressed</h3>
-<ul>
-<li>One student initially reported 0.05 (or 0.05%) due to an arithmetic/approach error (multiplying &ldquo;15% of 2.25,&rdquo; then &ldquo;15% of 33%&rdquo;).</li>
-<li>Correction: use complements/appropriate direct multiplication rather than the mistaken chaining.</li>
-</ul>
-<h2>&ldquo;And&rdquo; vs &ldquo;Or&rdquo; in probability language (set operations)</h2>
-<ul>
-<li>&ldquo;Or&rdquo; in probability is inclusive:
-<ul>
-<li>Brother&#45;or&#45;sister example: &ldquo;or&rdquo; includes brother only, sister only, or both.</li>
-</ul>
-</li>
-<li>Intersection (&cap;) = &ldquo;and&rdquo;:
-<ul>
-<li>Outcomes in both events A and B.</li>
-<li>Venn&#45;diagram shaded overlap explained with an example (e.g., birthday in June AND Hunter College student).</li>
-</ul>
-</li>
-<li>Union (&cup;) = &ldquo;or&rdquo;:
-<ul>
-<li>Outcomes in A, or B, or both.</li>
-</ul>
-</li>
-</ul>
-<h2>Contingency table interpretation: highest degree vs employment status</h2>
-<ul>
-<li>Scenario: 80 people categorized by:
-<ul>
-<li>Employment status (65 employed, 15 unemployed)</li>
-<li>Highest degree (41 bachelor&#39;s as highest; plus master&#39;s and doctorate categories with employment breakdown).</li>
-</ul>
-</li>
-<li>Key constraint:
-<ul>
-<li>&ldquo;Highest degree&rdquo; implies mutually exclusive groups; no one is counted twice.</li>
-<li>Even though doctorate holders typically have prior degrees, they are counted only under doctorate because it is the highest degree.</li>
-</ul>
-</li>
-<li>Question raised and addressed:
-<ul>
-<li>Some doctoral paths may not require a standalone master&#39;s; professor acknowledged field differences but reinforced that the table uses &ldquo;highest degree&rdquo; only.</li>
-</ul>
-</li>
-</ul>
-<h2>Action items</h2>
-<ul>
-<li>Think ahead on questions A&#45;J by tomorrow&#39;s class (can skip G and H; can also think about K and L but not required).</li>
-</ul>
-</div><h1>06-09.html</h1><div>
+    <p>The class worked through probability problems (parts A&#45;E) focused on &ldquo;stopping&rdquo; events across
+        Monday&#45;Friday, emphasizing complements and correct calculator/scientific&#45;notation handling. The session
+        then shifted to core set/probability language (and/or, intersection/union via Venn diagrams) and closed with an
+        interpretation framework for a contingency table about &ldquo;highest degree&rdquo; vs. employment status
+        (ensuring categories are mutually exclusive because they reflect highest degree).</p>
+    <h2>Probability problems (A&#45;E) — stopping events across the week</h2>
+    <ul>
+        <li>Students selected/confirmed which parts to attempt (B, C, D, E discussed most).</li>
+        <li>Key interpretation for &ldquo;first time on Thursday&rdquo;:
+            <ul>
+                <li>Monday: do not stop</li>
+                <li>Tuesday: do not stop</li>
+                <li>Wednesday: do not stop</li>
+                <li>Thursday: must stop</li>
+                <li>Friday: does not matter (can stop or not stop), so it effectively multiplies by 1 (&ldquo;100%&rdquo;)
+                    in that computation.
+                </li>
+            </ul>
+        </li>
+        <li>Complement relationship highlighted:
+            <ul>
+                <li>&ldquo;Stop at least once (one or more)&rdquo; is the complement of &ldquo;don&#39;t stop at all.&rdquo;</li>
+                <li>Parts B and E were explicitly described as complements.</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Part B (first stop on Thursday)</h3>
+    <ul>
+        <li>Correct setup explained as: (0.85 for Mon) &times; (0.85 for Tue) &times; (0.85 for Wed) &times; (0.15 for
+            Thu) &times; (1 for Fri either way).
+        </li>
+        <li>Reported correct numeric answer:
+            <ul>
+                <li>0.0921 = 9.21%.</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Part D (no stops at all / all non&#45;stops)</h3>
+    <ul>
+        <li>Computed as 0.85 multiplied by itself five times.</li>
+        <li>Result accepted:
+            <ul>
+                <li>0.4437 &asymp; 44.37%.</li>
+            </ul>
+        </li>
+        <li>Follow&#45;up clarification:
+            <ul>
+                <li>&ldquo;At least one stop&rdquo; = 100% &#45; 44.37%.</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Part E (stop every single day)</h3>
+    <ul>
+        <li>Computed as 0.15 multiplied by itself five times.</li>
+        <li>Corrected value after a self&#45;correction:
+            <ul>
+                <li>0.0076% (professor corrected from an earlier misstatement).</li>
+            </ul>
+        </li>
+        <li>Calculator note:
+            <ul>
+                <li>Graphing calculators may show scientific notation; interpret &ldquo;E&#45;5&rdquo; as moving the
+                    decimal 5 places left.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Common error addressed</h3>
+    <ul>
+        <li>One student initially reported 0.05 (or 0.05%) due to an arithmetic/approach error (multiplying &ldquo;15%
+            of 2.25,&rdquo; then &ldquo;15% of 33%&rdquo;).
+        </li>
+        <li>Correction: use complements/appropriate direct multiplication rather than the mistaken chaining.</li>
+    </ul>
+    <h2>&ldquo;And&rdquo; vs &ldquo;Or&rdquo; in probability language (set operations)</h2>
+    <ul>
+        <li>&ldquo;Or&rdquo; in probability is inclusive:
+            <ul>
+                <li>Brother&#45;or&#45;sister example: &ldquo;or&rdquo; includes brother only, sister only, or both.
+                </li>
+            </ul>
+        </li>
+        <li>Intersection (&cap;) = &ldquo;and&rdquo;:
+            <ul>
+                <li>Outcomes in both events A and B.</li>
+                <li>Venn&#45;diagram shaded overlap explained with an example (e.g., birthday in June AND Hunter College
+                    student).
+                </li>
+            </ul>
+        </li>
+        <li>Union (&cup;) = &ldquo;or&rdquo;:
+            <ul>
+                <li>Outcomes in A, or B, or both.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Contingency table interpretation: highest degree vs employment status</h2>
+    <ul>
+        <li>Scenario: 80 people categorized by:
+            <ul>
+                <li>Employment status (65 employed, 15 unemployed)</li>
+                <li>Highest degree (41 bachelor&#39;s as highest; plus master&#39;s and doctorate categories with
+                    employment breakdown).
+                </li>
+            </ul>
+        </li>
+        <li>Key constraint:
+            <ul>
+                <li>&ldquo;Highest degree&rdquo; implies mutually exclusive groups; no one is counted twice.</li>
+                <li>Even though doctorate holders typically have prior degrees, they are counted only under doctorate
+                    because it is the highest degree.
+                </li>
+            </ul>
+        </li>
+        <li>Question raised and addressed:
+            <ul>
+                <li>Some doctoral paths may not require a standalone master&#39;s; professor acknowledged field
+                    differences but reinforced that the table uses &ldquo;highest degree&rdquo; only.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Action items</h2>
+    <ul>
+        <li>Think ahead on questions A&#45;J by tomorrow&#39;s class (can skip G and H; can also think about K and L but
+            not required).
+        </li>
+    </ul>
+</div>
+<h1>06-09.html</h1>
+<div>
     <h2>Overview</h2>
     <p>
         This session covered key probability concepts, including:
-        <ul>
-            <li>Mutually exclusive vs. overlapping events (with Venn diagrams and tables)</li>
-            <li>The Addition Rule for "or" probabilities</li>
-            <li>Conditional probability (how "given" changes the denominator)</li>
-            <li>The General Multiplication Rule</li>
-            <li>Bayes' Rule</li>
-        </ul>
-        Examples included employment/degree data and a color&#45;blindness problem.
+    <ul>
+        <li>Mutually exclusive vs. overlapping events (with Venn diagrams and tables)</li>
+        <li>The Addition Rule for "or" probabilities</li>
+        <li>Conditional probability (how "given" changes the denominator)</li>
+        <li>The General Multiplication Rule</li>
+        <li>Bayes' Rule</li>
+    </ul>
+    Examples included employment/degree data and a color&#45;blindness problem.
     </p>
 
     <hr>
@@ -843,13 +1090,17 @@
     <ul>
         <li><strong>Mutually exclusive:</strong> Events cannot happen at the same time.
             <ul>
-                <li>Example: Being employed <em>and</em> unemployed at the same time is impossible &rarr; probability = 0.</li>
+                <li>Example: Being employed <em>and</em> unemployed at the same time is impossible &rarr; probability =
+                    0.
+                </li>
                 <li>Birthday in May <em>and</em> June for the same person &rarr; impossible.</li>
             </ul>
         </li>
         <li><strong>Overlapping (not mutually exclusive):</strong> Events can occur together.
             <ul>
-                <li>Example: Being employed <em>and</em> having a bachelor's degree &rarr; 32 people fall into both categories.</li>
+                <li>Example: Being employed <em>and</em> having a bachelor's degree &rarr; 32 people fall into both
+                    categories.
+                </li>
             </ul>
         </li>
     </ul>
@@ -884,7 +1135,8 @@
 
     <h2>3. Conditional Probability ("Given")</h2>
     <p>
-        The word <strong>"given"</strong> restricts the group you're looking at &#45; it becomes your <em>new denominator</em>.
+        The word <strong>"given"</strong> restricts the group you're looking at &#45; it becomes your <em>new
+        denominator</em>.
     </p>
 
     <div style="background: #f4f4f4; padding: 10px; border&#45;radius: 8px;">
@@ -975,7 +1227,8 @@
             <li><strong>Exactly one event occurs:</strong> P(exactly one) = P(A &cup; B) &#45; P(A &cap; B)</li>
         </ul>
     </div>
-</div><h1 style='page-break-before: always;'>06-10.html</h1>
+</div>
+<h1 style='page-break-before: always;'>06-10.html</h1>
 <div>
     <h2>Multiplication Rule &amp; Independence</h2>
     <ul>
@@ -993,7 +1246,8 @@
             </ul>
         </li>
         <li>
-            <strong>Caution:</strong> Only use the simplified multiplication rule when independence is clearly stated or explicitly assumed.
+            <strong>Caution:</strong> Only use the simplified multiplication rule when independence is clearly stated or
+            explicitly assumed.
         </li>
     </ul>
 
@@ -1013,7 +1267,9 @@
         <li>
             <strong>Interpretation:</strong>
             <ul>
-                <li>Independence implies the defective rate is the same regardless of machine (both machines produce the same percentage of defectives).</li>
+                <li>Independence implies the defective rate is the same regardless of machine (both machines produce the
+                    same percentage of defectives).
+                </li>
             </ul>
         </li>
         <li>
@@ -1040,13 +1296,17 @@
         <li>
             <strong>Coin toss example revisited:</strong>
             <ul>
-                <li>Tossing a coin three times yields \(2 \times 2 \times 2 = 8\) outcomes (Fundamental Counting Rule).</li>
+                <li>Tossing a coin three times yields \(2 \times 2 \times 2 = 8\) outcomes (Fundamental Counting
+                    Rule).
+                </li>
             </ul>
         </li>
         <li>
             <strong>General rule:</strong>
             <ul>
-                <li>If an experiment has 3 steps with \(M\), \(N\), and \(K\) outcomes respectively, total outcomes = \(M \times N \times K\).</li>
+                <li>If an experiment has 3 steps with \(M\), \(N\), and \(K\) outcomes respectively, total outcomes =
+                    \(M \times N \times K\).
+                </li>
             </ul>
         </li>
         <li>
@@ -1066,14 +1326,18 @@
         <li>
             <strong>Roadmap:</strong>
             <ul>
-                <li>Chapter 7: Review discrete vs. continuous random variables; analyze discrete variables via probability distributions; later (Section 7.6) analyze continuous random variables.</li>
+                <li>Chapter 7: Review discrete vs. continuous random variables; analyze discrete variables via
+                    probability distributions; later (Section 7.6) analyze continuous random variables.
+                </li>
                 <li>Chapter 8: Introduce sampling distributions.</li>
             </ul>
         </li>
         <li>
             <strong>Notation review:</strong>
             <ul>
-                <li>Population parameters (Greek letters): \(\mu\), \(\sigma^2\), \(\sigma\) (for a quantitative variable \(X\)).</li>
+                <li>Population parameters (Greek letters): \(\mu\), \(\sigma^2\), \(\sigma\) (for a quantitative
+                    variable \(X\)).
+                </li>
                 <li>Sample statistics: \(\bar{x}\), \(s^2\), \(s\).</li>
                 <li>
                     Sampling distribution notation introduced:
@@ -1089,7 +1353,9 @@
             <strong>Clarification:</strong>
             <ul>
                 <li>\(\bar{x}\) refers to the mean of <em>one</em> sample.</li>
-                <li>Repeated samples produce multiple sample means (\(\bar{x}_1, \bar{x}_2, \dots\)), whose distribution is summarized by \(\mu_{\bar{x}}\) and \(\sigma^2_{\bar{x}}\).</li>
+                <li>Repeated samples produce multiple sample means (\(\bar{x}_1, \bar{x}_2, \dots\)), whose distribution
+                    is summarized by \(\mu_{\bar{x}}\) and \(\sigma^2_{\bar{x}}\).
+                </li>
             </ul>
         </li>
     </ul>
@@ -1100,7 +1366,8 @@
 
     <div style="background: #f0f8ff; padding: 15px; border&#45;radius: 8px; margin&#45;bottom: 20px;">
         <h3>Context</h3>
-        <p>We're looking at a scenario where we select <strong>3 people</strong> on Black Friday. Each person has a <strong>70% chance</strong> of buying something (and a <strong>30% chance</strong> of not buying).</p>
+        <p>We're looking at a scenario where we select <strong>3 people</strong> on Black Friday. Each person has a
+            <strong>70% chance</strong> of buying something (and a <strong>30% chance</strong> of not buying).</p>
     </div>
 
     <div style="background: #f4f4f4; padding: 15px; border&#45;radius: 8px; margin&#45;bottom: 20px;">
@@ -1108,7 +1375,8 @@
         <p>Each outcome is a combination of 3 people (B = buys, N = doesn't buy):</p>
         <ul>
             <li><strong>BBB</strong> (all 3 buy): 0.70 &times; 0.70 &times; 0.70 = <strong>34.3%</strong></li>
-            <li><strong>BBN</strong> (first two buy, third doesn't): 0.70 &times; 0.70 &times; 0.30 = <strong>14.7%</strong></li>
+            <li><strong>BBN</strong> (first two buy, third doesn't): 0.70 &times; 0.70 &times; 0.30 =
+                <strong>14.7%</strong></li>
             <li>... and so on for all 8 possible outcomes (2<sup>3</sup> = 8).</li>
             <li><strong>NNN</strong> (nobody buys): 0.30 &times; 0.30 &times; 0.30 = <strong>2.7%</strong></li>
         </ul>
@@ -1135,17 +1403,20 @@
 
     <div style="background: #e2e3e5; padding: 15px; border&#45;radius: 8px; margin&#45;bottom: 20px;">
         <h3>Step 4: Finding the Mean (Expected Value)</h3>
-        <p>The <strong>mean</strong> (or <strong>expected value</strong>) of a discrete random variable is found using:</p>
+        <p>The <strong>mean</strong> (or <strong>expected value</strong>) of a discrete random variable is found using:
+        </p>
         <div style="background: #fff; padding: 10px; border&#45;radius: 5px; font&#45;family: monospace; font&#45;size: 1.2rem;">
             &micro; = &Sigma; [ X &times; P(X) ]
         </div>
-        <p>This is the <strong>theoretical average</strong> &#45; what you'd expect on average over many repetitions. It's also called the <strong>population mean</strong>.</p>
+        <p>This is the <strong>theoretical average</strong> &#45; what you'd expect on average over many repetitions.
+            It's also called the <strong>population mean</strong>.</p>
         <p><em>Example:</em> Multiply each X value (0, 1, 2, 3) by its probability, then add them all up.</p>
     </div>
 
     <div style="background: #f8d7da; padding: 15px; border&#45;radius: 8px;">
         <h3>Step 5: Finding the Standard Deviation</h3>
-        <p>There is also a formula to find the <strong>standard deviation</strong> (spread) of the variable X using the probability distribution. (Not fully detailed in the transcript, but it follows from the mean.)</p>
+        <p>There is also a formula to find the <strong>standard deviation</strong> (spread) of the variable X using the
+            probability distribution. (Not fully detailed in the transcript, but it follows from the mean.)</p>
     </div>
 
     <hr>
@@ -1153,9 +1424,13 @@
     <div style="background: #cce5ff; padding: 15px; border&#45;radius: 8px; margin&#45;top: 20px;">
         <h3>Key Takeaways</h3>
         <ul>
-            <li><strong>Discrete probability distribution</strong> = table of all possible X values and their probabilities.</li>
+            <li><strong>Discrete probability distribution</strong> = table of all possible X values and their
+                probabilities.
+            </li>
             <li><strong>Properties:</strong> Each probability between 0 and 1; total = 1.</li>
-            <li><strong>Mean (Expected Value):</strong> &micro; = &Sigma; [ X &times; P(X) ] &#45; the long&#45;run average.</li>
+            <li><strong>Mean (Expected Value):</strong> &micro; = &Sigma; [ X &times; P(X) ] &#45; the long&#45;run
+                average.
+            </li>
             <li><strong>Standard deviation</strong> measures variability around the mean.</li>
         </ul>
     </div>
@@ -1240,32 +1515,55 @@
     <h2>Chapter 7: Discrete Random Variables &amp; Expected Value</h2>
 
     <h3>1. Expected Value (Theoretical Average)</h3>
-    <p>The <strong>expected value</strong> (or <strong>theoretical mean</strong>) of a discrete random variable \(X\) is the long-run average value after many repetitions. It is denoted by \(E(X)\) or \(\mu\).</p>
+    <p>The <strong>expected value</strong> (or <strong>theoretical mean</strong>) of a discrete random variable \(X\) is
+        the long-run average value after many repetitions. It is denoted by \(E(X)\) or \(\mu\).</p>
 
     <div class="formula">
         \[
         \mu = E(X) = \sum \left[ x \cdot P(x) \right]
         \]
     </div>
-    <p>This is the same formula as the <strong>weighted average</strong>. While the formula is the same, the interpretation differs: the expected value is a theoretical long-run average.</p>
+    <p>This is the same formula as the <strong>weighted average</strong>. While the formula is the same, the
+        interpretation differs: the expected value is a theoretical long-run average.</p>
 
     <div class="example">
         <h4>Example: Black Friday Customers</h4>
-        <p>Let \(X\) = number of customers (out of 3) who buy something on Black Friday. The probability distribution is given.</p>
+        <p>Let \(X\) = number of customers (out of 3) who buy something on Black Friday. The probability distribution is
+            given.</p>
         <table>
             <thead>
-                <tr><th>\(x\)</th><th>\(P(x)\)</th><th>\(x \cdot P(x)\)</th></tr>
+            <tr>
+                <th>\(x\)</th>
+                <th>\(P(x)\)</th>
+                <th>\(x \cdot P(x)\)</th>
+            </tr>
             </thead>
             <tbody>
-                <tr><td>0</td><td>0.027</td><td>0</td></tr>
-                <tr><td>1</td><td>0.189</td><td>0.189</td></tr>
-                <tr><td>2</td><td>0.441</td><td>0.882</td></tr>
-                <tr><td>3</td><td>0.343</td><td>1.029</td></tr>
+            <tr>
+                <td>0</td>
+                <td>0.027</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0.189</td>
+                <td>0.189</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>0.441</td>
+                <td>0.882</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>0.343</td>
+                <td>1.029</td>
+            </tr>
             </tbody>
         </table>
         <p>\[
-        \mu = 0 + 0.189 + 0.882 + 1.029 = 2.1
-        \]</p>
+            \mu = 0 + 0.189 + 0.882 + 1.029 = 2.1
+            \]</p>
         <p>Interpretation: On average, we expect <strong>2.1 customers</strong> out of 3 to buy something.</p>
     </div>
 
@@ -1274,19 +1572,40 @@
         <p>Let \(X\) = number of breakdowns per week. The probability distribution is:</p>
         <table>
             <thead>
-                <tr><th>\(x\)</th><th>\(P(x)\)</th><th>\(x \cdot P(x)\)</th></tr>
+            <tr>
+                <th>\(x\)</th>
+                <th>\(P(x)\)</th>
+                <th>\(x \cdot P(x)\)</th>
+            </tr>
             </thead>
             <tbody>
-                <tr><td>0</td><td>0.20</td><td>0</td></tr>
-                <tr><td>1</td><td>0.15</td><td>0.15</td></tr>
-                <tr><td>2</td><td>0.25</td><td>0.50</td></tr>
-                <tr><td>3</td><td>0.40</td><td>1.20</td></tr>
+            <tr>
+                <td>0</td>
+                <td>0.20</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0.15</td>
+                <td>0.15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>0.25</td>
+                <td>0.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>0.40</td>
+                <td>1.20</td>
+            </tr>
             </tbody>
         </table>
         <p>\[
-        \mu = 0 + 0.15 + 0.50 + 1.20 = 1.85
-        \]</p>
-        <p>Interpretation: The coffee machine is expected to break down about <strong>1.85 times</strong> per week (approximately twice).</p>
+            \mu = 0 + 0.15 + 0.50 + 1.20 = 1.85
+            \]</p>
+        <p>Interpretation: The coffee machine is expected to break down about <strong>1.85 times</strong> per week
+            (approximately twice).</p>
     </div>
 
     <hr>
@@ -1311,29 +1630,52 @@
         <h4>Example: Black Friday (continued)</h4>
         <table>
             <thead>
-                <tr><th>\(x\)</th><th>\(P(x)\)</th><th>\(x^2 \cdot P(x)\)</th></tr>
+            <tr>
+                <th>\(x\)</th>
+                <th>\(P(x)\)</th>
+                <th>\(x^2 \cdot P(x)\)</th>
+            </tr>
             </thead>
             <tbody>
-                <tr><td>0</td><td>0.027</td><td>0</td></tr>
-                <tr><td>1</td><td>0.189</td><td>0.189</td></tr>
-                <tr><td>2</td><td>0.441</td><td>1.764</td></tr>
-                <tr><td>3</td><td>0.343</td><td>3.087</td></tr>
+            <tr>
+                <td>0</td>
+                <td>0.027</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0.189</td>
+                <td>0.189</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>0.441</td>
+                <td>1.764</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>0.343</td>
+                <td>3.087</td>
+            </tr>
             </tbody>
         </table>
         <p>\[
-        \sum x^2 P(x) = 0 + 0.189 + 1.764 + 3.087 = 5.04
-        \]</p>
+            \sum x^2 P(x) = 0 + 0.189 + 1.764 + 3.087 = 5.04
+            \]</p>
         <p>\[
-        \sigma = \sqrt{5.04 - (2.1)^2} = \sqrt{5.04 - 4.41} = \sqrt{0.63} \approx 0.79
-        \]</p>
+            \sigma = \sqrt{5.04 - (2.1)^2} = \sqrt{5.04 - 4.41} = \sqrt{0.63} \approx 0.79
+            \]</p>
         <p><strong>Note:</strong> Do not forget to take the square root. Without it, you get the variance.</p>
     </div>
 
     <hr>
 
     <h3>3. Binomial Distribution (Brief Introduction)</h3>
-    <p>When a discrete random variable satisfies the four binomial conditions, it follows a <strong>binomial distribution</strong>. The probability of exactly \(x\) successes in \(n\) trials is given by the binomial probability density function (PDF).</p>
-    <p>Technology (e.g., TI-83/84) can compute these probabilities using <code>binompdf(n, p, x)</code> or by generating a table of all possible \(x\) values.</p>
+    <p>When a discrete random variable satisfies the four binomial conditions, it follows a <strong>binomial
+        distribution</strong>. The probability of exactly \(x\) successes in \(n\) trials is given by the binomial
+        probability density function (PDF).</p>
+    <p>Technology (e.g., TI-83/84) can compute these probabilities using <code>binompdf(n, p, x)</code> or by generating
+        a table of all possible \(x\) values.</p>
 
     <div class="example">
         <h4>Example: Black Friday (Binomial)</h4>
@@ -1360,7 +1702,8 @@
 
     <div class="example">
         <h4>Example: IQ Scores</h4>
-        <p>Suppose IQ scores are normally distributed with mean \(\mu = 100\) and standard deviation \(\sigma = 10\).</p>
+        <p>Suppose IQ scores are normally distributed with mean \(\mu = 100\) and standard deviation \(\sigma =
+            10\).</p>
         <ul>
             <li>68% of scores are between 90 and 110.</li>
             <li>95% of scores are between 80 and 120.</li>
@@ -1371,9 +1714,12 @@
     <div class="example">
         <h4>Example: Exam Scores</h4>
         <p>Exam scores are normally distributed with \(\mu = 80\) and \(\sigma = 5\).</p>
-        <p><strong>Question:</strong> What is the probability that a randomly selected student scores higher than 80?</p>
-        <p><strong>Answer:</strong> Since the distribution is symmetric, about <strong>50%</strong> score above the mean.</p>
-        <p><strong>Note:</strong> For continuous random variables, \(P(X &gt; 80)\) is the same as \(P(X \geq 80)\) because the probability at a single point is zero. This is not the case for discrete variables.</p>
+        <p><strong>Question:</strong> What is the probability that a randomly selected student scores higher than 80?
+        </p>
+        <p><strong>Answer:</strong> Since the distribution is symmetric, about <strong>50%</strong> score above the
+            mean.</p>
+        <p><strong>Note:</strong> For continuous random variables, \(P(X &gt; 80)\) is the same as \(P(X \geq 80)\)
+            because the probability at a single point is zero. This is not the case for discrete variables.</p>
     </div>
 
     <hr>
@@ -1383,10 +1729,15 @@
         <ul>
             <li><strong>Expected Value:</strong> \(E(X) = \sum x \cdot P(x)\) is the theoretical long-run average.</li>
             <li><strong>Standard Deviation (Discrete):</strong> \(\sigma = \sqrt{\sum x^2 P(x) - \mu^2}\).</li>
-            <li><strong>Binomial Distribution:</strong> A special discrete distribution for counting successes in a fixed number of trials.</li>
-            <li><strong>Normal Distribution:</strong> A continuous, bell-shaped distribution. The empirical rule gives quick probability estimates.</li>
+            <li><strong>Binomial Distribution:</strong> A special discrete distribution for counting successes in a
+                fixed number of trials.
+            </li>
+            <li><strong>Normal Distribution:</strong> A continuous, bell-shaped distribution. The empirical rule gives
+                quick probability estimates.
+            </li>
             <li>For continuous variables, \(P(X &gt; a) = P(X \geq a)\).</li>
         </ul>
     </div>
 </div>
-</body></html>
+</body>
+</html>
